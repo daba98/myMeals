@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:id="@+id/photoViewBlur"
+            android:scaleType="centerCrop"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:id="@+id/photoView"
+            android:src="@drawable/default_photo"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/photoView"
+            android:layout_marginTop="34dp"
+            android:layout_above="@+id/symbolLayout"
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/detailsBackground"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/photoView"
+            android:gravity="center"
+            android:text="Burger"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/textLightPrimary"
+            android:background="@color/colorPrimary"
+            android:id="@+id/mealDetailsNameView"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/mealDetailsNameView"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_clock"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/uhrImageView"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mealDetailsNameView"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/uhrImageView"
+            android:id="@+id/timeToCookTextView"
+            android:text="30"
+            android:textSize="16sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/textLightSecondary"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mealDetailsNameView"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/timeToCookTextView"
+            android:text="min"
+            android:layout_marginLeft="3dp"
+            android:textSize="16sp"
+            android:textColor="@color/textLightSecondary"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_empty_star"
+            android:layout_below="@+id/mealDetailsNameView"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/star3"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_empty_star"
+            android:layout_below="@+id/mealDetailsNameView"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/star3"
+            android:layout_marginRight="3dp"
+            android:id="@+id/star2"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_empty_star"
+            android:layout_below="@+id/mealDetailsNameView"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/star2"
+            android:layout_marginRight="3dp"
+            android:id="@+id/star1"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_empty_star"
+            android:layout_below="@+id/mealDetailsNameView"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/star3"
+            android:layout_marginLeft="3dp"
+            android:id="@+id/star4"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_empty_star"
+            android:layout_below="@+id/mealDetailsNameView"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/star4"
+            android:layout_marginLeft="3dp"
+            android:id="@+id/star5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mealDetailsNameView"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="Einfach"
+            android:textColor="@color/textLightSecondary"
+            android:textSize="16sp"
+            android:id="@+id/difficultyView"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_info"
+            android:layout_below="@+id/mealDetailsNameView"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/difficultyView"
+            android:layout_marginRight="3dp"
+            android:id="@+id/infoImageView"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/timeToCookTextView"
+            android:id="@+id/symbolLayout"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center_vertical"
+            >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/fleisch"
+            android:id="@+id/meatImageView"
+            android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/fisch"
+                android:id="@+id/fishImageView"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/gemuese"
+                android:id="@+id/vegetableImageView"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/kartoffel"
+                android:id="@+id/potatoImageView"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/nudeln"
+                android:id="@+id/noodlesImageView"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/reis"
+                android:id="@+id/riceImageView"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/symbolLayout"
+            android:layout_marginTop="30dp"
+            android:text="@string/ingredients"
+            android:textStyle="bold"
+            android:textSize="29sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/ingredient_static_textview"/>
+
+            <ImageButton
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@+id/ingredient_static_textview"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/ic_add_circle_black_24dp"
+                android:onClick="clickedAddPerson"
+                android:id="@+id/addPersonButton"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ingredient_static_textview"
+                android:text="X Personen"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_toLeftOf="@+id/addPersonButton"
+                android:layout_marginRight="8dp"
+                android:id="@+id/personTextView"/>
+
+            <ImageButton
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@+id/ingredient_static_textview"
+                android:layout_toLeftOf="@+id/personTextView"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/ic_remove_circle_black_24dp"
+                android:onClick="clickedMinusPerson"
+                android:id="@+id/minusPersonButton"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/addPersonButton"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:id="@+id/ingredientsLayout">
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ingredientsLayout"
+            android:layout_marginTop="30dp"
+            android:text="@string/instructions"
+            android:textStyle="bold"
+            android:textSize="29sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/instruction_static_textview"/>
+
+        <de.die_bartmanns.daniel.mymeal.FullLengthListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/instructionsListView"
+            android:layout_below="@+id/instruction_static_textview"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textSize="16sp"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="8dp"
+            android:layout_marginBottom="30dp"
+            />
+        </RelativeLayout>
+    </ScrollView>

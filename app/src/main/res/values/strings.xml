@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">MyMeal</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+
+    <string name="ingredients">Zutaten</string>
+    <string name="instructions">Schritte</string>
+
+    <string name="easy">Einfach</string>
+    <string name="medium">Mittel</string>
+    <string name="hard">Schwer</string>
+
+    <string name="soupspoon">Esslöffel</string>
+    <string name="teaspoon">Teelöffel</string>
+    <string name="gramm">Gramm</string>
+    <string name="kilo">Kilogramm</string>
+    <string name="liter">Liter</string>
+    <string name="milliliter">Milliliter</string>
+    <string name="pinch">Prise</string>
+    <string name="piece">Stück</string>
+    <string name="pack">Packung</string>
+
+    <string name="name">Name</string>
+    <string name="time_to_cook">Dauer in min</string>
+    <string name="difficulty">Schwierigkeit</string>
+    <string name="rating">Bewertung</string>
+    <string name="photo">Foto:</string>
+    <string name="ingr_name">Name</string>
+    <string name="ingr_amount">Menge</string>
+    <string name="add">Add</string>
+    <string name="category">Kategorie</string>
+    <string name="all">Alle</string>
+    <string name="persons">Personen</string>
+
+    <string name="mainmeal">Hauptgericht</string>
+    <string name="soup">Suppe</string>
+    <string name="salad">Salat</string>
+    <string name="cake">Kuchen</string>
+    <string name="dessert">Dessert</string>
+    <string name="other">Eigene Kategorie</string>
+
+
+    <string name="camera_permission">Ohne Zugriff auf die Kamera können keine Fotos für das Gericht aufgenommen werden.</string>
+    <string name="wes_permission">Ohne Zugriff auf den externen Speicher können die aufgenommenen Fotos nicht gespeichert werden.</string>
+
+    <string name="mail_pre_text">Um das/(die) Gericht(e) zu importieren, öffne MyMeal, gehe in dem seitlichen Menü auf den Tab Gericht importieren und kopiere den folgenden Text in das vorgesehene Feld.</string>
+
+    <string name="set_profile_image">Profilbild festlegen</string>
+    <string name="take_camera_picture">Foto machen</string>
+    <string name="choose_from_gallery">Aus Gallerie auswählen</string>
+    <string name="dialog_permission_message">Wir benötigen die Berechtigungen, um auf die Kamera und die Gallerie zugreifen zu können.</string>
+    <string name="go_to_settings">Zu den Einstellungen</string>
+    <string name="dialog_permission_title">Berechtigung erteilen</string>
+    <string name="time_example"><font size="40">z.B. 45</font></string>
+    <string name="add_instruction">Schritt hinzufügen</string>
+    <string name="instruction_hint">Schritt eingeben...</string>
+    <string name="ingredient">Zutat</string>
+    <string name="add_ingredient">Zutat hinzufügen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="update">Ändern</string>
+    <string name="save_meal">Gericht Speichern</string>
+    <string name="toast_no_name">Du musst dem Gericht noch einen Namen geben</string>
+    <string name="taost_no_time">Du musst für das Gericht noch eine Dauer eingeben</string>
+    <string name="quit_dialog_title">Gerichteingabe verlassen</string>
+    <string name="quit_dialog_message">Möchtest du die Gerichteingabe wirklich verlassen? Wenn du sie jetzt verlässt, dann wird das Gericht nicht gespeichert.</string>
+    <string name="quit_dialog_positive_button">VERLASSEN</string>
+    <string name="quit_dialog_negative_button">ZURÜCK</string>
+    <string name="scheibe">Scheibe</string>
+    <string name="bund">Bund</string>
+    <string name="tasse">Tasse</string>
+    <string name="dose">Dose</string>
+    <string name="add_category_hint">Kategorie eingeben</string>
+    <string name="create_category">Kategorie erstellen</string>
+    <string name="choose_category">Kategorie wählen</string>
+    <string name="choose">WÄHLEN</string>
+    <string name="add_category">Neue Kategorie erstellen</string>
+    <string name="failure_dialog_title">Ein Fehler ist aufgetreten</string>
+    <string name="failure_dialog_message">Oops, da ist etwas schief gelaufen! Prüfe deine Internetverbindung und versuche es später erneut.</string>
+    <string name="import_edittext_hint">Füge den Text hier ein...</string>
+    <string name="import_title">Gericht importieren</string>
+    <string name="import_button">Importieren</string>
+    <string name="loading_dialog_message">Bitte warten. Das kann einen Moment dauern...</string>
+
+</resources>
