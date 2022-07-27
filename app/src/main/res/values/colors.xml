@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#313f5a</color>
+    <color name="colorPrimaryDark">#243557</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="editTextBack">#d2d2d2</color>
+    <color name="longClickBlack">#a9232323</color>
+
+    <color name="textLightPrimary">#FFFFFF</color>
+    <color name="textLightSecondary">#f5f5f5</color>
+
+    <color name="colorCake">#EF93EA</color>
+    <color name="colorCakeDark">#DA77D4</color>
+    <color name="colorSalad">#7CC88C</color>
+    <color name="colorSaladDark">#55A165</color>
+    <color name="colorSoup">#E8C187</color>
+    <color name="colorSoupDark">#DAAC69</color>
+    <color name="colorDessert">#8CDFDF</color>
+    <color name="colorDessertDark">#68C5C5</color>
+    <color name="colorOther">#DA8484</color>
+    <color name="colorOtherDark">#BF6363</color>
+
+    <color name="black">#000000</color>
+    <color name="toast_success">#8BC34A</color>
+</resources>
